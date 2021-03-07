@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="278.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adivinavisual.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="307.0" fitWidth="451.0" layoutX="13.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Captura.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="159.0" layoutY="115.0" mnemonicParsing="false" onAction="#Adivina" prefHeight="29.0" prefWidth="141.0" text="Jugar">
+         <font>
+            <Font name="Segoe UI Black" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="69.0" layoutY="14.0" prefHeight="47.0" prefWidth="337.0" text="Adivinador de Animales" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="159.0" layoutY="174.0" mnemonicParsing="false" onAction="#DibujaArbol" prefHeight="29.0" prefWidth="141.0" text="Arbol">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Segoe UI Black" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
